@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MerGenius — Gizlilik Politikası / Privacy Policy / Politique de Confidentialité / Política de Privacidad</title>
+  <meta name="description" content="MerGenius gizlilik politikası — TR / EN / FR / ES" />
+  <style>
+    :root{
+      --max-width:900px; --accent:#0b4a6f; --muted:#7f8c8d;
+      --card:#ffffff; --page-bg:#f5f7fa; --text:#111;
+    }
+    html,body{height:100%}
+    body{
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      margin:0;padding:24px;display:flex;justify-content:center; background:var(--page-bg);color:var(--text);
+    }
+    .wrap{width:100%;max-width:var(--max-width)}
+    .container{background:var(--card);border-radius:10px;padding:28px;box-shadow:0 6px 20px rgba(15,23,42,0.06)}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    header h1{margin:0;color:var(--accent);font-size:1.3rem}
+    .update{color:var(--muted);font-size:0.95rem}
+    .langbar{display:flex;gap:8px;flex-wrap:wrap}
+    .langbtn{background:var(--accent);color:#fff;border:none;padding:8px 12px;border-radius:6px;cursor:pointer;font-weight:600}
+    .langbtn[aria-pressed="true"]{outline:3px solid rgba(11,74,111,0.15)}
+    main section{display:none}
+    main section.active{display:block}
+    h2{color:#2c3e50;margin-top:22px}
+    ul{padding-left:20px;margin:8px 0}
+    .contact{background:#f1f6fb;padding:12px;border-radius:8px;margin-top:16px}
+    .footer{color:var(--muted);font-size:0.9rem;text-align:center;margin-top:22px}
+    .important{background:#fff7e6;border-left:4px solid #ffc107;padding:10px;border-radius:6px;margin:12px 0}
+    a{color:var(--accent)}
+    @media(max-width:520px){.container{padding:18px}header h1{font-size:1.05rem}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="container" role="main">
+      <header>
+        <h1>MerGenius — Gizlilik Politikası</h1>
+        <div class="update">Son güncelleme: 27 Ekim 2025</div>
+      </header>
+
+      <div style="margin-top:14px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div style="font-size:0.95rem;color:var(--muted)">Diller / Languages:</div>
+        <div class="langbar" role="tablist" aria-label="Dil seçimi">
+          <button class="langbtn" data-lang="tr" aria-pressed="true">Türkçe</button>
+          <button class="langbtn" data-lang="en" aria-pressed="false">English</button>
+          <button class="langbtn" data-lang="fr" aria-pressed="false">Français</button>
+          <button class="langbtn" data-lang="es" aria-pressed="false">Español</button>
+        </div>
+      </div>
+
+      <!-- TURKISH -->
+      <main>
+        <section id="tr" class="active" aria-labelledby="tr-title">
+          <h2 id="tr-title">MerGenius — Gizlilik Politikası</h2>
+          <p>MerGenius ("biz", "uygulama") kullanıcı gizliliğine önem verir. Bu politika uygulamayı kullanırken hangi verilerin toplandığını, nasıl kullanıldığını ve haklarınızı açıklar. Uygulamayı kullanarak bu politikayı kabul etmiş sayılırsınız.</p>
+
+          <h3>1. Hangi verileri topluyoruz?</h3>
+          <ul>
+            <li><strong>Doğrudan sağlanan bilgiler:</strong> İsim, e-posta (kullanıcı sağlarsa).</li>
+            <li><strong>Cihaz ve kullanım verileri:</strong> cihaz türü, işletim sistemi, uygulama sürümü, hata raporları.</li>
+            <li><strong>Reklam/analitik verileri:</strong> reklam gösterimleri ve tıklamalar (varsa).</li>
+            <li><strong>Bildirim verileri:</strong> push token vb. (izin verildiyse).</li>
+          </ul>
+
+          <h3>2. Verileri neden topluyoruz?</h3>
+          <p>Uygulamanın çalışması, hata tespiti, kullanıcı deneyimi iyileştirme, reklam/analitik ve yasal yükümlülüklere uyum amaçlı.</p>
+
+          <h3>3. Yerel saklama ve on-device işlemler</h3>
+          <p>Öncelikle veriler cihaz üzerinde (ör. Hive veya SharedPreferences) saklanır. Yapay zeka işlemleri (kategorilendirme/öneriler) cihaz üzerinde gerçekleşecek şekilde tasarlanmıştır; internet gerektirmez ve veriler dışarı gönderilmez.</p>
+
+          <div class="important"><strong>Önemli:</strong> Eğer uygulamada yedekleme/eşitleme gibi sunucuya veri gönderme varsa, kullanıcıya açıkça bildirilir ve izin alınır.</div>
+
+          <h3>4. Üçüncü taraf hizmetler</h3>
+          <p>Uygulama reklam veya analiz için üçüncü taraf hizmetler (ör. Google Mobile Ads / AdMob) kullanabilir. Bu servislerin kendi gizlilik politikaları uygulanır.</p>
+
+          <h4>4.1 AdMob</h4>
+          <p>Google reklamları reklam kimliği, IP, cihaz bilgileri ve uygulama kullanım verileri toplayabilir. Daha fazla bilgi için Google politikalarını inceleyin:</p>
+          <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gizlilik Politikası</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob veri kullanımı</a></li>
+          </ul>
+
+          <h3>5. Veri güvenliği</h3>
+          <p>Yerel veri şifreleme, ek şifreleme katmanları ve düzenli güncellemeler ile veri güvenliğini sağlamaya çalışıyoruz. Ancak %100 güvenlik garanti edilemez; cihaz güvenliği kullanıcı sorumluluğundadır.</p>
+
+          <h3>6. Veri saklama ve silme</h3>
+          <ul>
+            <li>Veriler öncelikle cihazınızda saklanır.</li>
+            <li>Uygulamayı silerseniz çoğu yerel veri cihazdan kaldırılır.</li>
+            <li>Uygulama içi veri silme seçenekleri mevcuttur.</li>
+          </ul>
+
+          <h3>7. Çocukların gizliliği</h3>
+          <p>MerGenius 13 yaşın altındaki çocuklar için tasarlanmamıştır; bilerek 13 yaş altından kişisel bilgi toplamayız. Ebeveyn talepleri için iletişime geçin.</p>
+
+          <h3>8. Kullanıcı hakları</h3>
+          <p>KVKK ve GDPR kapsamında erişim, düzeltme, silme, itiraz ve taşınabilirlik haklarına sahipsiniz. Talepler için iletişime geçin.</p>
+
+          <div class="contact">
+            <h3>İletişim</h3>
+            <p><strong>E-posta:</strong> <a href="mailto:mergeniusapp@gmail.com">mergeniusapp@gmail.com</a><br>
+            <strong>Web:</strong> <a href="https://yourdomain.com" target="_blank" rel="noopener">https://yourdomain.com</a></p>
+          </div>
+
+          <p class="footer">© 2025 MerGenius. Bu gizlilik politikası son olarak 27 Ekim 2025 tarihinde güncellenmiştir.</p>
+        </section>
+
+        <!-- ENGLISH -->
+        <section id="en" aria-labelledby="en-title">
+          <h2 id="en-title">MerGenius — Privacy Policy</h2>
+          <p>MerGenius ("we", "the app") cares about user privacy. This policy explains what data we collect, how we use it, and your rights. By using the app you accept this policy.</p>
+
+          <h3>1. What data do we collect?</h3>
+          <ul>
+            <li><strong>Information you provide:</strong> name, email (if you enter them).</li>
+            <li><strong>Device & usage data:</strong> device type, OS, app version, crash logs.</li>
+            <li><strong>Ad & analytics data:</strong> ad impressions and clicks (if ads are used).</li>
+            <li><strong>Notification data:</strong> push token, when permission granted.</li>
+          </ul>
+
+          <h3>2. Why we collect data</h3>
+          <p>To operate the app, detect bugs, improve user experience, support analytics/ads and comply with legal obligations.</p>
+
+          <h3>3. Local storage & on-device processing</h3>
+          <p>We primarily store data on the device (e.g., Hive or SharedPreferences). AI features (categorization, suggestions) are designed to run on-device; they don't require internet and no data is sent out.</p>
+
+          <div class="important"><strong>Important:</strong> If any feature sends data to servers (e.g., backup/sync), we will notify users clearly and request consent.</div>
+
+          <h3>4. Third-party services</h3>
+          <p>The app may use third-party services for ads or analytics (e.g., Google Mobile Ads / AdMob). Those services have their own privacy practices.</p>
+
+          <h4>4.1 AdMob</h4>
+          <p>Google may collect advertising ID, IP address, device info and app usage. See:</p>
+          <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob data usage</a></li>
+          </ul>
+
+          <h3>5. Data security</h3>
+          <p>We apply local encryption, additional encryption layers when needed, and regular updates. No method can guarantee 100% security; device security is user's responsibility.</p>
+
+          <h3>6. Data retention & deletion</h3>
+          <ul>
+            <li>Data is primarily stored on your device.</li>
+            <li>Deleting the app removes most local data.</li>
+            <li>In-app options to delete data are provided where applicable.</li>
+          </ul>
+
+          <h3>7. Children's privacy</h3>
+          <p>The app is not targeted at children under 13 and does not knowingly collect personal information from them. Parents/guardians should contact us if they believe data was provided.</p>
+
+          <h3>8. Your rights</h3>
+          <p>Under applicable laws (KVKK/GDPR) you have rights to access, correct, delete, object or portability of your data. Contact us to exercise these rights.</p>
+
+          <div class="contact">
+            <h3>Contact</h3>
+            <p><strong>Email:</strong> <a href="mailto:mergeniusapp@gmail.com">mergeniusapp@gmail.com</a><br>
+            <strong>App:</strong> MerGenius — AI-driven Focus &amp; Task Assistant<br>
+            <strong>Web:</strong> <a href="https://yourdomain.com" target="_blank" rel="noopener">https://yourdomain.com</a></p>
+          </div>
+
+          <p class="footer">© 2025 MerGenius. This privacy policy was last updated on October 27, 2025.</p>
+        </section>
+
+        <!-- FRENCH -->
+        <section id="fr" aria-labelledby="fr-title">
+          <h2 id="fr-title">MerGenius — Politique de Confidentialité</h2>
+          <p>MerGenius ("nous", "l'application") attache de l'importance à la vie privée des utilisateurs. Cette politique explique quelles données nous collectons, comment elles sont utilisées et vos droits. En utilisant l'application, vous acceptez cette politique.</p>
+
+          <h3>1. Quelles données collectons-nous ?</h3>
+          <ul>
+            <li><strong>Informations fournies :</strong> nom, e-mail (si vous les saisissez).</li>
+            <li><strong>Données de l'appareil et d'utilisation :</strong> type d'appareil, système d'exploitation, version de l'application, rapports d'incidents.</li>
+            <li><strong>Données publicitaires/analyses :</strong> impressions et clics publicitaires (si des publicités sont utilisées).</li>
+            <li><strong>Données de notification :</strong> jeton push, si autorisé.</li>
+          </ul>
+
+          <h3>2. Pourquoi nous collectons ces données ?</h3>
+          <p>Pour faire fonctionner l'application, corriger les erreurs, améliorer l'expérience utilisateur, gérer la publicité/l'analyse et respecter les obligations légales.</p>
+
+          <h3>3. Stockage local et traitement sur l'appareil</h3>
+          <p>Les données sont principalement stockées sur l'appareil (p. ex. Hive ou SharedPreferences). Les fonctionnalités IA (catégorisation, suggestions) sont conçues pour s'exécuter localement ; elles ne nécessitent pas Internet et aucune donnée n'est envoyée à l'extérieur.</p>
+
+          <div class="important"><strong>Important :</strong> Si une fonctionnalité nécessite l'envoi de données vers un serveur (sauvegarde/synchronisation), cela sera indiqué clairement et le consentement sera demandé.</div>
+
+          <h3>4. Services tiers</h3>
+          <p>L'application peut utiliser des services tiers pour la publicité ou l'analyse (ex. Google Mobile Ads / AdMob). Ces services ont leurs propres pratiques de confidentialité.</p>
+
+          <h4>4.1 AdMob</h4>
+          <p>Google peut collecter l'identifiant publicitaire, l'adresse IP, des informations sur l'appareil et l'utilisation de l'application. Voir :</p>
+          <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Politique de confidentialité Google</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Utilisation des données AdMob</a></li>
+          </ul>
+
+          <h3>5. Sécurité des données</h3>
+          <p>Nous utilisons le chiffrement local, des couches supplémentaires si nécessaire et des mises à jour régulières. Aucune méthode ne garantit une sécurité à 100 % ; la sécurité de l'appareil relève de l'utilisateur.</p>
+
+          <h3>6. Conservation et suppression des données</h3>
+          <ul>
+            <li>Les données sont principalement stockées sur votre appareil.</li>
+            <li>La suppression de l'application supprime la plupart des données locales.</li>
+            <li>Des options de suppression dans l'application sont disponibles si nécessaire.</li>
+          </ul>
+
+          <h3>7. Confidentialité des enfants</h3>
+          <p>L'application n'est pas destinée aux enfants de moins de 13 ans et ne collecte pas sciemment leurs données personnelles. Contactez-nous si vous pensez que des informations d'un enfant ont été fournies.</p>
+
+          <h3>8. Vos droits</h3>
+          <p>Conformément au KVKK et au RGPD, vous disposez de droits d'accès, de rectification, de suppression, d'opposition et de portabilité. Contactez-nous pour exercer ces droits.</p>
+
+          <div class="contact">
+            <h3>Contact</h3>
+            <p><strong>Email :</strong> <a href="mailto:mergeniusapp@gmail.com">mergeniusapp@gmail.com</a><br>
+            <strong>Web :</strong> <a href="https://yourdomain.com" target="_blank" rel="noopener">https://yourdomain.com</a></p>
+          </div>
+
+          <p class="footer">© 2025 MerGenius. Cette politique a été mise à jour le 27 octobre 2025.</p>
+        </section>
+
+        <!-- SPANISH -->
+        <section id="es" aria-labelledby="es-title">
+          <h2 id="es-title">MerGenius — Política de Privacidad</h2>
+          <p>MerGenius ("nosotros", "la aplicación") valora la privacidad de los usuarios. Esta política explica qué datos recopilamos, cómo los usamos y sus derechos. Al usar la aplicación acepta esta política.</p>
+
+          <h3>1. ¿Qué datos recopilamos?</h3>
+          <ul>
+            <li><strong>Información proporcionada:</strong> nombre, correo electrónico (si los ingresa).</li>
+            <li><strong>Datos del dispositivo y uso:</strong> tipo de dispositivo, sistema operativo, versión de la app, registros de errores.</li>
+            <li><strong>Datos de anuncios/analítica:</strong> impresiones y clics en anuncios (si existen).</li>
+            <li><strong>Datos de notificaciones:</strong> token push, si se concede permiso.</li>
+          </ul>
+
+          <h3>2. ¿Por qué recopilamos datos?</h3>
+          <p>Para operar la aplicación, detectar fallos, mejorar la experiencia, soportar análisis/anuncios y cumplir obligaciones legales.</p>
+
+          <h3>3. Almacenamiento local y procesamiento en dispositivo</h3>
+          <p>Los datos se almacenan principalmente en el dispositivo (por ejemplo, Hive o SharedPreferences). Las funciones de IA (clasificación, sugerencias) están diseñadas para ejecutarse en el dispositivo; no requieren Internet y no se envían datos fuera.</p>
+
+          <div class="important"><strong>Importante:</strong> Si alguna función envía datos a servidores (p. ej. copia de seguridad/sincronización), se informará claramente y se solicitará consentimiento.</div>
+
+          <h3>4. Servicios de terceros</h3>
+          <p>La app puede usar servicios de terceros para anuncios o analítica (p. ej. Google Mobile Ads / AdMob). Estos servicios tienen sus propias políticas de privacidad.</p>
+
+          <h4>4.1 AdMob</h4>
+          <p>Google puede recopilar identificador publicitario, IP, información del dispositivo y uso de la app. Consulte:</p>
+          <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de privacidad de Google</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Uso de datos en AdMob</a></li>
+          </ul>
+
+          <h3>5. Seguridad de los datos</h3>
+          <p>Aplicamos cifrado local, capas adicionales cuando es necesario y actualizaciones regulares. Ningún método garantiza seguridad al 100 %; la seguridad del dispositivo es responsabilidad del usuario.</p>
+
+          <h3>6. Retención y eliminación de datos</h3>
+          <ul>
+            <li>Los datos se almacenan principalmente en su dispositivo.</li>
+            <li>Eliminar la app borra la mayoría de los datos locales.</li>
+            <li>Se ofrecen opciones en la app para eliminar datos cuando proceda.</li>
+          </ul>
+
+          <h3>7. Privacidad infantil</h3>
+          <p>La app no está dirigida a menores de 13 años y no recopila conscientemente información personal de ellos. Si cree que un niño ha proporcionado datos, póngase en contacto con nosotros.</p>
+
+          <h3>8. Sus derechos</h3>
+          <p>Bajo KVKK y GDPR tiene derechos de acceso, rectificación, eliminación, oposición y portabilidad. Póngase en contacto para ejercerlos.</p>
+
+          <div class="contact">
+            <h3>Contacto</h3>
+            <p><strong>Email:</strong> <a href="mailto:mergeniusapp@gmail.com">mergeniusapp@gmail.com</a><br>
+            <strong>Web:</strong> <a href="https://yourdomain.com" target="_blank" rel="noopener">https://yourdomain.com</a></p>
+          </div>
+
+          <p class="footer">© 2025 MerGenius. Esta política fue actualizada por última vez el 27 de octubre de 2025.</p>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    // Language switcher
+    (function(){
+      const buttons = document.querySelectorAll('.langbtn');
+      const sections = { tr: document.getElementById('tr'), en: document.getElementById('en'), fr: document.getElementById('fr'), es: document.getElementById('es') };
+
+      function setLang(lang){
+        // update buttons
+        buttons.forEach(b => {
+          const is = b.getAttribute('data-lang') === lang;
+          b.setAttribute('aria-pressed', is ? 'true' : 'false');
+        });
+        // show/hide sections
+        Object.keys(sections).forEach(k => {
+          sections[k].classList.toggle('active', k === lang);
+        });
+        // update html lang attribute for accessibility/SEO
+        document.documentElement.lang = (lang === 'tr' ? 'tr' : (lang === 'en' ? 'en' : (lang === 'fr' ? 'fr' : 'es')));
+      }
+
+      // initial
+      setLang('tr');
+
+      buttons.forEach(b => {
+        b.addEventListener('click', () => setLang(b.getAttribute('data-lang')));
+      });
+
+      // Optional: detect browser language and switch if available
+      try {
+        const userLang = navigator.language ? navigator.language.slice(0,2) : null;
+        if(userLang && ['tr','en','fr','es'].includes(userLang)) setLang(userLang);
+      } catch(e){}
+    })();
+  </script>
+</body>
+</html>
